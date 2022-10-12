@@ -17,7 +17,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '18-jdk-slim'
+          java-version: '18-slim'
           distribution: 'adopt'
           
       - name: Build Eureka Naming Server Container Image
